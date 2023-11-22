@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  examples/app:
+    dependencies:
+      gg-cli:
+        specifier: workspace:*
+        version: link:../../packages/gg-cli
+
+  packages/gg-cli: {}
