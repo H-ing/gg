@@ -11,5 +11,11 @@
   },
   "keywords": [],
   "author": "pengdehe <617420449@qq.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "simple-git": "^3.21.0",
+    "yargs": "^17.7.2"
+  }
 }
